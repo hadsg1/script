@@ -37,7 +37,7 @@ do -- before loading
         game.GetService(game, "Players")["LocalPlayer"]:Kick("Execute in Fallen only!")
         return
     end
-    if executor == "Wave" or executor == "AWP" or executor == "Potassium" or executor == "Swift" or executor == "Visual" or executor == "Xeno" then
+    if executor == "Wave" or executor == "AWP" or executor == "Potassium" or executor == "Swift" or executor == "Visual" or executor == "Volcano" then
         -- do nothing
     else
         game.GetService(game, "Players")["LocalPlayer"]:Kick("Unsupported Executor " .. executor)
